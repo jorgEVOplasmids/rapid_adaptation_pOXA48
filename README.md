@@ -60,12 +60,14 @@ In order to try to extrapolate our EE results beyond the conditions tested, we i
 
 In addition to the analyses shown in the main text, we performed complementary analyses to check the sequence of pOXA-48 in each of the strains, calculate the plasmid copy number in each of the samples, calculate the genomic IS1 copy number in the genome of each strain, etc.
 
-#### Calculation of plasmid copy number (pOXA-48 and all the other plasmids for each strain)
+#### Calculation of plasmid copy number (PCN) of pOXA-48 and all the other plasmids for each strain
+
+To correct the number of genomic IS1 copies in each strain, we needed to take into account the possible elements encoded in plasmids. Then, the copy number of these would influence the genomic IS1 copy number. The code employed for this can be found in *link_to_script*.
 
 #### Calculation of genomic IS1 copy number
 
-To determine
+To determine the genomic IS1 copy number of the strains we used the annotation GBK files from PGAP output for each of the strains (both in the EE and in the _in vivo_ analyses). We considered those elements encoded in plasmids and multiplied them by the corresponding PCN.
 
 #### Checking pOXA-48 sequence
 
-
+To analyze whether the strains contained the most common variant of pOXA-48 (K8) we performed the variant calling of the strains at day 1 of the EE against a common reference of pOXA-48 K8. The code for these were the same as for the variant calling explained for the EE.
