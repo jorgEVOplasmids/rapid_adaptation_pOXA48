@@ -10,4 +10,4 @@ For the analysis of the phylogeny of the strains included in our work we used ma
 
 ### pOXA-48 fitness effects
 
-
+To study the fitness effects of pOXA-48 in the bacterial hosts chosen for the experimental evolution assay, we measured the OD of 6 replicates with and without pOXA-48 for each strain during 24 hours (*link_to_table_of_data*) and calculated the growth of pOXA-48-carrying samples relative to pOXA-48-free ones. The code for the analysis, statistics and plotting of this data (Figure 1B, Figure 1D) can be found at *link_to_script*. 
