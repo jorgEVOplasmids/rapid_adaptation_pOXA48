@@ -36,7 +36,17 @@ To confirm the structural variants detected by short read data as analyzed in th
 
 To test the hypothesis of the genomic IS1 copy number regulating the transposition rate in the strains under study, we analyzed multiple sources of data. We first analyzed the EE variant calling results as well as transcriptomic data. Then, we also complemented our observations with a fluctuation assay testing transposition rate by checking non capsulated mutants. All these analyses shown in **Figure 4** are depicted in the following subsections.
 
-#### Transcriptomic analyses
+#### Correlation of IS1 transposition in EE & genomic copy number
+
+The first observation we could make about the IS1 copy number regulating the transposition during evolution was the correlation between the increment in IS1 transposition in pOXA-48-carrying populations (w & w/o AMC) relative to pOXA-48-free populations with the genomic IS1 copy number for each of the strains (**Supplementary Figure 4A**). The code for this analysis is found in *link_to_script*.
+
+#### Transcriptomic analyses to support the correlation
+
+To further support the results we got in the previous section, we analyzed the change in the expression of IS1 elements with the entrance of pOXA-48 in a subset of clinical strains. Then we correlated these results with the genomic IS1 copy number in the strains (**Supplementary Figure 4B**). The code for these analyses can be found in *link_to_script*.
+
+#### 
+
+#### 
 
 ## Genomic analyses of _in vivo_ evolution
 
