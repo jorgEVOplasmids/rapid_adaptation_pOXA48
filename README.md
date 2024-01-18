@@ -1,6 +1,6 @@
 # Plasmid-encoded insertion sequences promote rapid adaptation in clinical enterobacteria
 
-This repository contains all the code used in the work **Plasmid-encoded insertion sequences promote rapid adaptation in clinical enterobacteria**. The code developed for each of the analysis is organized in order for the sections in the results part of the main text of the paper, following the order in which the data was analyzed. For more detail regarding questions different to the code for analyzing and/or plotting consider consulting the Supplementary Material/Methods section of the article.
+This repository contains all the code used in the work **Plasmid-encoded insertion sequences promote rapid adaptation in clinical enterobacteria**. The code developed for each of the analysis is organized in order for the sections in the results part of the main text of the paper, following the order in which the data was analyzed. For more detail regarding questions different to the code for analyzing and/or plotting consider consulting the Supplementary Material/Methods section of the article. The version of each software is specified in the Methods section of the article.
 
 ## Phenotypic and phylogenetic analyses
 
@@ -17,3 +17,7 @@ To study the fitness effects of pOXA-48 in the bacterial hosts chosen for the ex
 To assess the phenotipic changes during the experimental evolution assay, we measured the bacterial growth of each replicate population each 2 days of the experiment. The raw data for this analysis can be found at *link_to_table_of_data* and the script for the plotting (Figure 1D) and statistical analyses can be checked at *link_to_script*.
 
 ## Genomic analyses
+
+#### Data processing and variant calling
+
+The first step in our genomic analyses were the usual quality control and trimming of the raw reads from the sequencing. With the clean reads, we performed the variant calling of
