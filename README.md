@@ -32,7 +32,11 @@ To check whether we could confirm the transposition of IS1 elements from pOXA-48
 
 To confirm the structural variants detected by short read data as analyzed in the previous sections, we decided to sequence one evolved clone for each _K. pneumoniae_ population which showed high frequency NJ events of interest, as well as one evolved clone for each _E. coli_ population as control. The code for the variant calling analysis of this data is summarized in *link_to_script*. The code to performe closed hybrid assemblies of these samples can be found at *link_to_script*.
 
-## Transcriptomic analyses
+## Analysis of IS1 transposition depending on genomic IS1 copy number
+
+To test the hypothesis of the genomic IS1 copy number regulating the transposition rate in the strains under study, we analyzed multiple sources of data. We first analyzed the EE variant calling results as well as transcriptomic data. Then, we also complemented our observations with a fluctuation assay testing transposition rate by checking non capsulated mutants. All these analyses shown in **Figure 4** are depicted in the following subsections.
+
+#### Transcriptomic analyses
 
 ## Genomic analyses of _in vivo_ evolution
 
@@ -43,5 +47,7 @@ To confirm the structural variants detected by short read data as analyzed in th
 ## Additional analyses
 
 In addition to the analyses shown in the main text, we performed complementary analyses to check the sequence of pOXA-48 in each of the strains, calculate the plasmid copy number in each of the samples, etc.
+
+#### Checking pOXA-48 sequence
 
 
