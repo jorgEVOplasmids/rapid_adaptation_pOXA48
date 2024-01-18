@@ -44,9 +44,9 @@ The first observation we could make about the IS1 copy number regulating the tra
 
 To further support the results we got in the previous section, we analyzed the change in the expression of IS1 elements with the entrance of pOXA-48 in a subset of clinical strains. Then we correlated these results with the genomic IS1 copy number in the strains (**Supplementary Figure 4B**). The code for these analyses can be found in *link_to_script*.
 
-#### 
+#### Fluctuation assay testing transposition rate
 
-#### 
+In order to analyze the increment in mutants of interest (non capsulated) in the different conditions of this assay, we used the RSalvador package as determined in *list_to_script*. We checked the mutation profile in the non capsulated mutants for all the conditions by sequencing them and analyzing as described in the **variant calling** subsection of the **Genomic analyses during the EE** section. All these results regarding the fluctuation assay of non capsulated mutants testing IS1 transposition rate can be found in **Figure 4D-E** and **Supplementary Figure 20**.
 
 ## Genomic analyses of _in vivo_ evolution
 
