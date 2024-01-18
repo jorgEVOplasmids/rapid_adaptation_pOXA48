@@ -20,4 +20,4 @@ To assess the phenotipic changes during the experimental evolution assay, we mea
 
 #### Data processing and variant calling
 
-The first step in our genomic analyses were the usual quality control and trimming of the raw reads from the sequencing. With the clean reads, we performed the variant calling of
+The first step in our genomic analyses were the usual quality control and trimming of the raw reads from the sequencing. With the clean reads, we performed the variant calling of the samples against their reference genome using breseq. All these steps and the commands used are summarized in *link_to_script*. The variant calling results reported by breseq as an html table for each replicate were merged into a xlsx table per strain using *link_to_script* (modified from *ref_to_original_script_dev*).
