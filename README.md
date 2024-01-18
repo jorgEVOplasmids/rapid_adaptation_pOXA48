@@ -4,15 +4,15 @@ This repository contains all the code used in the work **Plasmid-encoded inserti
 
 ## Phenotypic and phylogenetic analyses
 
-### Phylogenetic tree
+#### Phylogenetic tree
 
 For the analysis of the phylogeny of the strains included in our work we used mashtree as shown in *link_to_script* using the closed reference genomes of each strain *link_OR_reference_to_sequences*. We represented the phylogenetic tree as shown in Figure 1A using the online tool of iTOL at https://itol.embl.de/. 
 
-### pOXA-48 fitness effects
+#### pOXA-48 fitness effects
 
 To study the fitness effects of pOXA-48 in the bacterial hosts chosen for the experimental evolution assay, we measured the OD of 6 replicates with and without pOXA-48 for each strain during 24 hours (*link_to_table_of_data*) and calculated the growth of pOXA-48-carrying samples relative to pOXA-48-free ones. The code for the analysis, statistics and plotting of this data (Figure 1B) can be found at *link_to_script*.
 
-### Bacterial growth during experimental evolution
+#### Bacterial growth during experimental evolution
 
 To assess the phenotipic changes during the experimental evolution assay, we measured the bacterial growth of each replicate population each 2 days of the experiment. The raw data for this analysis can be found at *link_to_table_of_data* and the script for the plotting (Figure 1D) and statistical analyses can be checked at *link_to_script*.
 
