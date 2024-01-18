@@ -50,13 +50,21 @@ In order to analyze the increment in mutants of interest (non capsulated) in the
 
 ## Genomic analyses of _in vivo_ evolution
 
+In order to try to extrapolate our EE results beyond the conditions tested, we intended to analyze within-patient evolution of pOXA-48 carrying isolates. The code employed for this, which results can be found in **Figure 5** is specified in the following subsections.
+
 #### Variant calling of _in vivo_ evolved clones
 
 #### GAM model of IS1 transposition _in vivo_
 
 ## Additional analyses
 
-In addition to the analyses shown in the main text, we performed complementary analyses to check the sequence of pOXA-48 in each of the strains, calculate the plasmid copy number in each of the samples, etc.
+In addition to the analyses shown in the main text, we performed complementary analyses to check the sequence of pOXA-48 in each of the strains, calculate the plasmid copy number in each of the samples, calculate the genomic IS1 copy number in the genome of each strain, etc.
+
+#### Calculation of plasmid copy number (pOXA-48 and all the other plasmids for each strain)
+
+#### Calculation of genomic IS1 copy number
+
+To determine
 
 #### Checking pOXA-48 sequence
 
