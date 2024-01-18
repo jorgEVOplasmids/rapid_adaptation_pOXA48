@@ -20,4 +20,8 @@ To assess the phenotipic changes during the experimental evolution assay, we mea
 
 #### Data processing and variant calling
 
-The first step in our genomic analyses were the usual quality control and trimming of the raw reads from the sequencing. With the clean reads, we performed the variant calling of the samples against their reference genome using breseq. All these steps and the commands used are summarized in *link_to_script*. The variant calling results reported by breseq as an html table for each replicate were merged into a xlsx table per strain using *link_to_script* (modified from *ref_to_original_script_dev*).
+The first step in our genomic analyses were the usual quality control and trimming of the raw reads from the sequencing. With the clean reads, we performed the variant calling of the samples against their reference genome using breseq. All these steps and the commands used are summarized in *link_to_script*. The variant calling results reported by breseq as an html table for each replicate were merged into a xlsx table per strain using *link_to_script* (modified from *ref_to_original_script_dev*). Then, we performed the filtering of the variant calling results as described in the Methods section using the code in *link_to_script* and merged the data for all the strains into a unique table to ease the downstream analyses with *link_to_script*. To show the results as in Figure 2, we summarized the events depending on their type and plotted using the first part of the code in *link_to_script*.
+
+We also summarized the data per strain (Supplementary Figures 7-19) and represented the location of the mutations in the different replicons of each genome (Figure 3AB) using the circlize package in the code developed in *link_to_script*. We also intended to show different pathways of adaptation at the main targets found during our experiment, for which we used the TrackViewer package as shown in *link_to_script*.
+
+
