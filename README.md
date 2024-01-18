@@ -38,11 +38,11 @@ To test the hypothesis of the genomic IS1 copy number regulating the transpositi
 
 #### Correlation of IS1 transposition in EE & genomic copy number
 
-The first observation we could make about the IS1 copy number regulating the transposition during evolution was the correlation between the increment in IS1 transposition in pOXA-48-carrying populations (w & w/o AMC) relative to pOXA-48-free populations with the genomic IS1 copy number for each of the strains (**Supplementary Figure 4A**). The code for this analysis is found in *link_to_script*.
+The first observation we could make about the IS1 copy number regulating the transposition during evolution was the correlation between the increment in IS1 transposition in pOXA-48-carrying populations (w & w/o AMC) relative to pOXA-48-free populations with the genomic IS1 copy number for each of the strains (**Supplementary Figure 21A**). The code for this analysis is found in *link_to_script*.
 
 #### Transcriptomic analyses to support the correlation
 
-To further support the results we got in the previous section, we analyzed the change in the expression of IS1 elements with the entrance of pOXA-48 in a subset of clinical strains. Then we correlated these results with the genomic IS1 copy number in the strains (**Supplementary Figure 4B**). The code for these analyses can be found in *link_to_script*.
+To further support the results we got in the previous section, we analyzed the change in the expression of IS1 elements with the entrance of pOXA-48 in a subset of clinical strains. Then we correlated these results with the genomic IS1 copy number in the strains (**Supplementary Figure 21B**). The code for these analyses can be found in *link_to_script*.
 
 #### Fluctuation assay testing transposition rate
 
@@ -54,7 +54,11 @@ In order to try to extrapolate our EE results beyond the conditions tested, we i
 
 #### Variant calling of _in vivo_ evolved clones
 
+To analyze the mutations present in _in vivo_ evolved clones we performed the same analysis as the one explained for the EE variant calling. Refer to *link_to_script*.
+
 #### GAM model of IS1 transposition _in vivo_
+
+To test the main forces driving the increase in IS1 transposition (species or genomic IS1 copy number), we built a Generalized Additive Model (GAM) using the glst package in R. The code for the development of the model can be found in *link_to_script*. The results of this analysis can be found at **Supplementary Figure 22**.
 
 ## Additional analyses
 
