@@ -14,7 +14,7 @@ To study the fitness effects of pOXA-48 in the bacterial hosts chosen for the ex
 
 #### Bacterial growth during experimental evolution
 
-To assess the phenotipic changes during the experimental evolution assay, we measured the bacterial growth of each replicate population each 2 days of the experiment. The raw data for this analysis can be found at *link_to_table_of_data* and the script for the plotting (**Figure 1D**) and statistical analyses can be checked at *link_to_script*.
+To assess the phenotipic changes during the experimental evolution assay, we measured the bacterial growth of each replicate population each 2 days of the experiment. The raw data for this analysis can be found at *link_to_table_of_data* and the script for the plotting (**Figure 1D**) and statistical analyses can be checked at /phylogeny_and_phenotype/curves_non_cont.R.
 
 ## Genomic analyses of the Experimental Evolution
 
