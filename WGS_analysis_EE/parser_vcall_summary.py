@@ -24,6 +24,8 @@ import pandas as pd
 
 # LOAD DATAFRAME
 
+# Substitute by strain name and species required
+
 strain = "CF13"
 species = "C. freundii"
 
