@@ -1,5 +1,5 @@
 
-setwd("~/Documents/TFM/Curvas")
+setwd("~/phylogeny_and_phenotype/Curvas")
 
 library(tidyverse)
 library(readxl)
