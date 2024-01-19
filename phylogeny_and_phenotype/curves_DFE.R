@@ -1,4 +1,4 @@
-setwd("/phylogeny_and_phenotype/curves_DFE")
+setwd("/home/jorge/Documents/TFM/repetition_curves_EE/")
 
 library(tidyverse)
 library(readxl)
@@ -593,23 +593,6 @@ od_data_day_1_def$AUC <- od_data_day_1_def$AUC/60
 
 #write.xlsx(od_data_day_1_def, "od_data_day_1_def.xlsx")
 
-costs_data <- read_xlsx("od_data_day_1_def.xlsx", sheet = 2)
-costs_data <- as.data.frame(costs_data)
-
-costs_data %>%
-  ggplot(aes(y = Median_cost-1, x = factor(Strain, levels = c("K209", "C286", "CF13", "C324", "K153", "C309", "K147", "CF12", "K163", "K25", "H53", "C021", "K091")), col = Species, fill = Species)) +
-  geom_bar(stat = "identity") +
-  geom_errorbar(aes(x=Strain, ymin=Median_cost-1-Stderr_cost, ymax=Median_cost-1+Stderr_cost), width=0, alpha=0.4, size=1, col = "black")+
-  ylab("Relative fitness (w)") +
-  xlab("Strain") +
-  theme_bw(base_size = 24)+
-  ylim(-0.3,0.3)+
-  theme(panel.background = element_blank(), panel.grid = element_blank(),
-        strip.text.x = element_blank(),
-        #legend.position = "none",
-        strip.background = element_blank(),
-        axis.text.x = element_text(angle = 45,  hjust=1))
-
 ### Load data for stats
 
 costs_data_stats <- read_xlsx("od_data_day_1_def.xlsx", sheet = 1)
@@ -703,22 +686,6 @@ table_pvalues <- table_pvalues %>% add_row (Strain= "K25",
 
 
 table_pvalues$p.adj.fdr <- p.adjust(table_pvalues$pvalue, method="bonferroni", n=13)
-
-
-#### Plot histogram of cost distribution to compare with Aida's paper
-
-costs_data %>%
-  ggplot(aes(x = Median_cost)) +
-  geom_histogram() +
-  ylab("Number of strains") +
-  xlab("Relative fitness") +
-  theme_bw(base_size = 24)+
-  ylim(-0.3,0.3)+
-  theme(panel.background = element_blank(), panel.grid = element_blank(),
-        strip.text.x = element_blank(),
-        #legend.position = "none",
-        strip.background = element_blank(),
-        axis.text.x = element_text(angle = 45,  hjust=1))
 
 
 # Plot barplots with points
