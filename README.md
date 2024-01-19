@@ -6,7 +6,7 @@ This repository contains all the code used in the work **Plasmid-encoded inserti
 
 #### Phylogenetic tree
 
-For the analysis of the phylogeny of the strains included in our work we used mashtree as shown in *link_to_script* using the closed reference genomes of each strain *link_OR_reference_to_sequences*. We represented the phylogenetic tree as shown in **Figure 1A** using the online tool of iTOL at https://itol.embl.de/. 
+For the analysis of the phylogeny of the strains included in our work we used mashtree as shown in /phylogeny_and_phenotype/phylogeny_script.sh using the closed reference genomes of each strain uploaded at *link_to_SRA_sequences*. We represented the phylogenetic tree as shown in **Figure 1A** using the online tool of iTOL at https://itol.embl.de/. 
 
 #### pOXA-48 fitness effects
 
