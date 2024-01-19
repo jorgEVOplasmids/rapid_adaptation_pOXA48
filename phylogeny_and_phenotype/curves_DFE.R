@@ -1,4 +1,4 @@
-setwd("/home/jorge/Documents/TFM/repetition_curves_EE/")
+setwd("/phylogeny_and_phenotype/curves_DFE")
 
 library(tidyverse)
 library(readxl)
