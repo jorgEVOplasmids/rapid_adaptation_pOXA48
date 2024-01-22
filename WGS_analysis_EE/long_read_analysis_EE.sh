@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+### Replace variables with files needed for each step
+
 data_dir=$1 # Where fast5 folder is placed
 barcode=$2 # Native Barcoding kit employed EXP-NBD104 or EXP-NBD114
 
@@ -42,4 +44,8 @@ samtools sort $mappingfile.bam -o $mappingfile.sorted.bam --threads 16
 # Run sniffles for variant calling
 
 sniffles -i $mappingfile.sorted.bam -v $sniffles.vcf --reference $reffile.fasta
+
+### Hybrid assembly of evolved clones and/or reference genomes
+
+unicycler -l $longreadfiles.fastq.gz -1 $shortreads_forward.fastq.gz -2 $shortreads_reverse.fastq.gz -o $folder_assemblies -t 16 --racon_path $path_to_racon/racon/build/bin/racon
 
