@@ -58,7 +58,7 @@ To analyze the mutations present in _in vivo_ evolved clones we performed the sa
 
 #### GAM model of IS1 transposition _in vivo_
 
-To test the main forces driving the increase in IS1 transposition (species or genomic IS1 copy number), we built a Generalized Additive Model (GAM) using the mgcv package in R. The code for the development of the model can be found in *link_to_script*. The results of this analysis can be found at **Supplementary Figure 22**.
+To test the main forces driving the increase in IS1 transposition (species or genomic IS1 copy number), we built a Generalized Additive Model (GAM) using the mgcv package in R. The code for the development of the model can be found in /WGS_analysis_in_vivo/GAM_model_patients.R. The results of this analysis can be found at **Supplementary Figure 22**.
 
 ## Additional analyses
 
