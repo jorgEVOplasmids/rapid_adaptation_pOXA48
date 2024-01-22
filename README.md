@@ -38,7 +38,7 @@ To test the hypothesis of the genomic IS1 copy number regulating the transpositi
 
 #### Correlation of IS1 transposition in EE & genomic copy number
 
-The first observation we could make about the IS1 copy number regulating the transposition during evolution was the correlation between the increment in IS1 transposition in pOXA-48-carrying populations (w & w/o AMC) relative to pOXA-48-free populations with the genomic IS1 copy number for each of the strains (**Supplementary Figure 21A**). The code for this analysis is found in *link_to_script*.
+The first observation we could make about the IS1 copy number regulating the transposition during evolution was the correlation between the increment in IS1 transposition in pOXA-48-carrying populations (w & w/o AMC) relative to pOXA-48-free populations with the genomic IS1 copy number for each of the strains (**Supplementary Figure 21A**). The code for this analysis is found in /WGS_analysis_EE/IStrEE_nIS_correlation.R.
 
 #### Transcriptomic analyses to support the correlation
 
