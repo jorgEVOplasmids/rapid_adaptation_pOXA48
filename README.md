@@ -42,7 +42,7 @@ The first observation we could make about the IS1 copy number regulating the tra
 
 #### Transcriptomic analyses to support the correlation
 
-To further support the results we got in the previous section, we analyzed the change in the expression of IS1 elements with the entrance of pOXA-48 in a subset of clinical strains. Then we correlated these results with the genomic IS1 copy number in the strains (**Supplementary Figure 21B**). The code for these analyses can be found in *link_to_script*.
+To further support the results we got in the previous section, we analyzed the change in the expression of IS1 elements with the entrance of pOXA-48 in a subset of clinical strains. Then we correlated these results with the genomic IS1 copy number in the strains (**Supplementary Figure 21B**). The code for these analyses can be found in /WGS_analysis_EE/RNASeq_correlation.R.
 
 #### Fluctuation assay testing transposition rate
 
