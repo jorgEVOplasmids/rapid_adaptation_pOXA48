@@ -66,7 +66,7 @@ In addition to the analyses shown in the main text, we performed complementary a
 
 #### Calculation of plasmid copy number (PCN) of pOXA-48 and all the other plasmids for each strain
 
-To correct the number of genomic IS1 copies in each strain, we needed to take into account the possible elements encoded in plasmids. Then, the copy number of these would influence the genomic IS1 copy number. The code employed for this can be found in *link_to_script*.
+To correct the number of genomic IS1 copies in each strain, we needed to take into account the possible elements encoded in plasmids. Then, the copy number of these would influence the genomic IS1 copy number. The code employed for this can be found in /additional_analyses/PCN_analysis.sh.
 
 #### Calculation of genomic IS1 copy number
 
