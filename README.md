@@ -30,7 +30,7 @@ To check whether we could confirm the transposition of IS1 elements from pOXA-48
 
 #### Long-read analysis
 
-To confirm the structural variants detected by short read data as analyzed in the previous sections, we decided to sequence one evolved clone for each _K. pneumoniae_ population which showed high frequency NJ events of interest, as well as one evolved clone for each _E. coli_ population as control. The code for the variant calling analysis of this data is summarized in /WGS_analysis_EE/long_read_analysis.sh. The code to performe closed hybrid assemblies of these samples can be found at *link_to_script*.
+To confirm the structural variants detected by short read data as analyzed in the previous sections, we decided to sequence one evolved clone for each _K. pneumoniae_ population which showed high frequency NJ events of interest, as well as one evolved clone for each _E. coli_ population as control. The code for the variant calling analysis of this data is summarized in /WGS_analysis_EE/long_read_analysis.sh. The code to performe closed hybrid assemblies of these samples can also be found at /WGS_analysis_EE/long_read_analysis.sh.
 
 ## Analysis of IS1 transposition depending on genomic IS1 copy number
 
