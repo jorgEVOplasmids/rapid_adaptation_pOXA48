@@ -26,7 +26,7 @@ We also summarized the data per strain (**Supplementary Figures 7-19**) and repr
 
 #### Tracking IS1 elemments
 
-To check whether we could confirm the transposition of IS1 elements from pOXA-48 into other regions of the genomes, we studied if there were more identical copies of these in other regions of the genome. To do so, we performed the steps specified in *link_to_script* and determined those strains in which we could track the transposition (i.e. those in which the BLAST hits only showed 100% of identity and length for the pOXA-48 copies).
+To check whether we could confirm the transposition of IS1 elements from pOXA-48 into other regions of the genomes, we studied if there were more identical copies of these in other regions of the genome. To do so, we performed the steps specified in /WGS_analysis_EE/tracking_IS1.sh and determined those strains in which we could track the transposition (i.e. those in which the BLAST hits only showed 100% of identity and length for the pOXA-48 copies).
 
 #### Long-read analysis
 
