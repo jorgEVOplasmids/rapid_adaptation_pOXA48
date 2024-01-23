@@ -54,7 +54,7 @@ In order to try to extrapolate our EE results beyond the conditions tested, we i
 
 #### Variant calling of _in vivo_ evolved clones
 
-To analyze the mutations present in _in vivo_ evolved clones we performed the same analysis as the one explained for the EE variant calling. Refer to *link_to_script*.
+To analyze the mutations present in _in vivo_ evolved clones we performed the same analysis as the one explained for the EE variant calling in /WGS_analysis_EE/breseq_pipeline.sh. We closed the genomes of one of the isolates per lineage doing hybrid assembly and annotated them using PGAP as explained in *link_to_script*.  
 
 #### GAM model of IS1 transposition _in vivo_
 
