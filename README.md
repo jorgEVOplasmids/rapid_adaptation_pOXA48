@@ -30,11 +30,11 @@ We also summarized the data per strain (**Supplementary Figures 7-19**) and repr
 
 #### Tracking IS1 elemments
 
-To check whether we could confirm the transposition of IS1 elements from pOXA-48 into other regions of the genomes, we studied if there were more identical copies of these in other regions of the genome. To do so, we performed the steps specified in /WGS_analysis_EE/tracking_IS1.sh and determined those strains in which we could track the transposition (i.e. those in which the BLAST hits only showed 100% of identity and length for the pOXA-48 copies).
+To check whether we could confirm the transposition of IS1 elements from pOXA-48 into other regions of the genomes, we studied if there were more identical copies of these in other regions of the genome. To do so, we performed the steps specified in [/WGS_analysis_EE/tracking_IS1.sh](https://github.com/jorgEVOplasmids/rapid_adaptation_pOXA48/blob/main/WGS_analysis_EE/tracking_IS1.sh) and determined those strains in which we could track the transposition (i.e. those in which the BLAST hits only showed 100% of identity and length for the pOXA-48 copies).
 
 #### Long-read analysis
 
-To confirm the structural variants detected by short read data as analyzed in the previous sections, we decided to sequence one evolved clone for each _K. pneumoniae_ population which showed high frequency NJ events of interest, as well as one evolved clone for each _E. coli_ population as control. The code for the variant calling analysis of this data is summarized in /WGS_analysis_EE/long_read_analysis.sh. The code to performe closed hybrid assemblies of these samples can also be found at /WGS_analysis_EE/long_read_analysis.sh.
+To confirm the structural variants detected by short read data as analyzed in the previous sections, we decided to sequence one evolved clone for each _K. pneumoniae_ population which showed high frequency NJ events of interest, as well as one evolved clone for each _E. coli_ population as control. The code for the variant calling analysis of this data is summarized in [/WGS_analysis_EE/long_read_analysis.sh](https://github.com/jorgEVOplasmids/rapid_adaptation_pOXA48/blob/main/WGS_analysis_EE/long_read_analysis_EE.sh). The code to performe closed hybrid assemblies of these samples can also be found at [/WGS_analysis_EE/long_read_analysis.sh](https://github.com/jorgEVOplasmids/rapid_adaptation_pOXA48/blob/main/WGS_analysis_EE/long_read_analysis_EE.sh).
 
 ## Analysis of IS1 transposition depending on genomic IS1 copy number
 
