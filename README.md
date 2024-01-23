@@ -6,15 +6,15 @@ This repository contains all the code used in the work **Plasmid-encoded inserti
 
 #### Phylogenetic tree
 
-For the analysis of the phylogeny of the strains included in our work we used mashtree as shown in /phylogeny_and_phenotype/phylogeny_script.sh using the closed reference genomes of each strain uploaded at *link_to_SRA_sequences*. We represented the phylogenetic tree as shown in **Figure 1A** using the online tool of iTOL at https://itol.embl.de/. 
+For the analysis of the phylogeny of the strains included in our work we used mashtree as shown in [/phylogeny_and_phenotype/phylogeny_script.sh](https://github.com/jorgEVOplasmids/rapid_adaptation_pOXA48/blob/main/phylogeny_and_phenotype/phylogeny_script.sh) using the closed reference genomes of each strain uploaded at *link_to_SRA_sequences*. We represented the phylogenetic tree as shown in **Figure 1A** using the online tool of iTOL at https://itol.embl.de/. 
 
 #### pOXA-48 fitness effects
 
-To study the fitness effects of pOXA-48 in the bacterial hosts chosen for the experimental evolution assay, we measured the OD of 6 replicates with and without pOXA-48 for each strain during 24 hours (/phylogeny_and_phenotype/curves_DFE) and calculated the growth of pOXA-48-carrying samples relative to pOXA-48-free ones. The code for the analysis, statistics and plotting of this data (**Figure 1B**) can be found at /phylogeny_and_phenotype/curves_DFE.R.
+To study the fitness effects of pOXA-48 in the bacterial hosts chosen for the experimental evolution assay, we measured the OD of 6 replicates with and without pOXA-48 for each strain during 24 hours (/phylogeny_and_phenotype/curves_DFE) and calculated the growth of pOXA-48-carrying samples relative to pOXA-48-free ones. The code for the analysis, statistics and plotting of this data (**Figure 1B**) can be found at [/phylogeny_and_phenotype/curves_DFE.R](https://github.com/jorgEVOplasmids/rapid_adaptation_pOXA48/blob/main/phylogeny_and_phenotype/curves_DFE.R).
 
 #### Bacterial growth during experimental evolution
 
-To assess the phenotipic changes during the experimental evolution assay, we measured the bacterial growth of each replicate population each 2 days of the experiment. The raw data for this analysis can be found at /phylogeny_and_phenotype/Curvas and the script for the plotting (**Figure 1D**) and statistical analyses can be checked at /phylogeny_and_phenotype/curves_non_cont.R.
+To assess the phenotipic changes during the experimental evolution assay, we measured the bacterial growth of each replicate population each 2 days of the experiment. The raw data for this analysis can be found at /phylogeny_and_phenotype/Curvas and the script for the plotting (**Figure 1D**) and statistical analyses can be checked at [/phylogeny_and_phenotype/curves_non_cont.R](https://github.com/jorgEVOplasmids/rapid_adaptation_pOXA48/blob/main/phylogeny_and_phenotype/curves_non_cont.R).
 
 ## Genomic analyses of the Experimental Evolution
 
