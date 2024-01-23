@@ -20,7 +20,7 @@ To assess the phenotipic changes during the experimental evolution assay, we mea
 
 #### Reference genomes
 
-To perform the downstream analysis steps we firstly assembled the reference genomes by hybrid assembly using Unicycler and combining short and long reads. In the cases in which the genomes couldn't be assembled using Unicycler, we employed Flye and polished the assemblies using Medaka and several rounds of Pilon. The final assembled closed genomes were annotated using the NCBI Prokaryotic Genome Annotation Pipeline (PGAP). All these steps are summarized in /WGS_analysis_EE/assembly_and_annotation.sh.
+To perform the downstream analysis steps we firstly assembled the reference genomes by hybrid assembly using Unicycler and combining short and long reads. In the cases in which the genomes couldn't be assembled using Unicycler, we employed Flye and polished the assemblies using Medaka and several rounds of Pilon. The final assembled closed genomes were annotated using the NCBI Prokaryotic Genome Annotation Pipeline (PGAP). All these steps are summarized in [/WGS_analysis_EE/assembly_and_annotation.sh](https://github.com/jorgEVOplasmids/rapid_adaptation_pOXA48/blob/main/WGS_analysis_EE/assembly_and_annotation.sh).
 
 #### Data processing and variant calling
 
@@ -58,7 +58,7 @@ In order to try to extrapolate our EE results beyond the conditions tested, we i
 
 #### Variant calling of _in vivo_ evolved clones
 
-To analyze the mutations present in _in vivo_ evolved clones we performed the same analysis as the one explained for the EE variant calling in /WGS_analysis_EE/breseq_pipeline.sh. We closed the genomes of one of the isolates per lineage doing hybrid assembly and annotated them using PGAP as previously explained in /WGS_analysis_EE/assembly_and_annotation.sh.  
+To analyze the mutations present in _in vivo_ evolved clones we performed the same analysis as the one explained for the EE variant calling in /WGS_analysis_EE/breseq_pipeline.sh. We closed the genomes of one of the isolates per lineage doing hybrid assembly and annotated them using PGAP as previously explained in [/WGS_analysis_EE/assembly_and_annotation.sh](https://github.com/jorgEVOplasmids/rapid_adaptation_pOXA48/blob/main/WGS_analysis_EE/assembly_and_annotation.sh).  
 
 #### GAM model of IS1 transposition _in vivo_
 
