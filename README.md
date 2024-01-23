@@ -46,7 +46,7 @@ To further support the results we got in the previous section, we analyzed the c
 
 #### Fluctuation assay testing transposition rate
 
-In order to analyze the increment in mutants of interest (non capsulated) in the different conditions of this assay, we used the RSalvador package as determined in *list_to_script*. We checked the mutation profile in the non capsulated mutants for all the conditions by sequencing them and analyzing as described in the **variant calling** subsection of the **Genomic analyses during the EE** section. All these results regarding the fluctuation assay of non capsulated mutants testing IS1 transposition rate can be found in **Figure 4D-E** and **Supplementary Figure 20**.
+In order to analyze the increment in mutants of interest (non capsulated) in the different conditions of this assay, we used the RSalvador package as determined in /IS1_transposition_copy_number/RSalvador_script.R. We checked the mutation profile in the non capsulated mutants for all the conditions by sequencing them and analyzing as described in the **variant calling** subsection of the **Genomic analyses during the EE** section. All these results regarding the fluctuation assay of non capsulated mutants testing IS1 transposition rate can be found in **Figure 4D-E** and **Supplementary Figure 20**.
 
 ## Genomic analyses of _in vivo_ evolution
 
