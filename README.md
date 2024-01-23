@@ -18,6 +18,10 @@ To assess the phenotipic changes during the experimental evolution assay, we mea
 
 ## Genomic analyses of the Experimental Evolution
 
+#### Reference genomes
+
+To perform the downstream analysis steps we firstly assembled the reference genomes by hybrid assembly using Unicycler and combining short and long reads. In the cases in which the genomes couldn't be assembled using Unicycler, we employed Flye and polished the assemblies using Medaka and several rounds of Pilon. The final assembled closed genomes were annotated using the NCBI Prokaryotic Genome Annotation Pipeline (PGAP). All these steps are summarized in *link_to_script*.
+
 #### Data processing and variant calling
 
 The first step in our genomic analyses were the usual quality control and trimming of the raw reads from the sequencing. With the clean reads, we performed the variant calling of the samples against their reference genome using breseq. All these steps and the commands used are summarized in /WGS_analysis_EE/breseq_pipeline.sh. The variant calling results reported by breseq as an html table for each replicate were merged into a xlsx table per strain using /WGS_analysis_EE/breseq_index_parser.py (modified from *ref_to_original_script_dev*). The dependencies needed for its execution can be found at /WGS_analysis_EE/environment_pybreseqparser.yml. Then, we performed the filtering of the variant calling results as described in the Methods section using the code in /WGS_analysis_EE/parser_EE.py (for populations) and /WGS_analysis_EE/parser_clones_EE.py (for clones) and summarized each table using /WGS_analysis_EE/parser_vcall_summary.py to then merge the data for all the strains into a unique table to ease the downstream analyses. To show the results as in **Figure 2**, we summarized the events depending on their type and plotted using the first part of the code in /WGS_analysis_EE/plots_summary_parsed_vcall.R.
