@@ -9,7 +9,7 @@ library(ggpubr)
 library(car)
 library(scales)
 
-setwd("~/Downloads")
+setwd("~/input")
 
 Mutants<-read.xlsx("traslucidas_merged.xlsx", sheetIndex = 1) 
 Viables<-read.xlsx("viables_merged.xlsx", sheetIndex = 1) 
