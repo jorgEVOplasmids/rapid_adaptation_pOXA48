@@ -12,9 +12,9 @@ library(scales)
 setwd("~/Downloads")
 
 Mutants<-read.xlsx("traslucidas_merged.xlsx", sheetIndex = 1) 
-Viables<-read.xlsx('viables_merged.xlsx', sheetIndex = 1) 
+Viables<-read.xlsx("viables_merged.xlsx", sheetIndex = 1) 
 
-x=4 #The column used to calculate statistics (In which column is your WT?)
+x=4
 
 mu=seq(1,ncol(Mutants),1)
 mut_rat=seq(1,ncol(Viables),1)
