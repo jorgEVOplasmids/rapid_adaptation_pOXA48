@@ -67,7 +67,7 @@ table_corr_nIS_movs_IS <- rbind(table_corr_nIS_movs_IS, c("K209", "No pOXA-48", 
 
 # Introduce by hand replicates which show 0 movements
 #write.xlsx(table_corr_nIS_movs_IS, "table_corr_nIS_movs_IS.xlsx")
-# Reload table
+# Load table
 table_corr_nIS_movs_IS_full <- read.xlsx("/home/jorge/Documents/important_docs/draft_expev/results_summary/tracking_ISs/table_corr_nIS_movs_IS.xlsx", sheetIndex = 1)
 
 table_corr_nIS_movs_IS_full_by_strain <- aggregate(table_corr_nIS_movs_IS_full$IS1_movs, by = list(table_corr_nIS_movs_IS_full$Strain, table_corr_nIS_movs_IS_full$Condition), FUN = sum)
