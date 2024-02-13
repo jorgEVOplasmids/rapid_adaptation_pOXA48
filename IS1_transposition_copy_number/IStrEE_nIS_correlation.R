@@ -3,7 +3,7 @@
 # and the number of IS1 movements when the plasmid pOXA-48 is present during
 # the experimental evolution of clinical enterobacteria
 
-setwd("/home/jorge/Documents/important_docs/draft_expev/figures_draft_expev/summary_parsed_vcall_w_plasmids/")
+setwd("/input")
 
 library(ggplot2)
 library(xlsx)
@@ -16,7 +16,7 @@ library(lme4)
 
 #merged_summary_vcall_w_plasmids <- read.xlsx("merged_summary_vcall_w_plasmids.xlsx", sheetName = "ISs_per_replicate")
 merged_summary_vcall_w_plasmids <- read.xlsx("merged_summary_vcall_w_plasmids.xlsx", sheetName = "merged_summary")
-initial_n_IS1 <- read.xlsx("/home/jorge/Documents/important_docs/draft_expev/results_summary/tracking_ISs/IS1_elements_genomes.xlsx", sheetIndex = 1)
+initial_n_IS1 <- read.xlsx("IS1_elements_genomes.xlsx", sheetIndex = 1)
 
 # Recalculate number of IS jumps per replicate as we only want IS1 movements in this correlation
 
@@ -68,7 +68,7 @@ table_corr_nIS_movs_IS <- rbind(table_corr_nIS_movs_IS, c("K209", "No pOXA-48", 
 # Introduce by hand replicates which show 0 movements
 #write.xlsx(table_corr_nIS_movs_IS, "table_corr_nIS_movs_IS.xlsx")
 # Load table
-table_corr_nIS_movs_IS_full <- read.xlsx("/home/jorge/Documents/important_docs/draft_expev/results_summary/tracking_ISs/table_corr_nIS_movs_IS.xlsx", sheetIndex = 1)
+table_corr_nIS_movs_IS_full <- read.xlsx("table_corr_nIS_movs_IS.xlsx", sheetIndex = 1)
 
 table_corr_nIS_movs_IS_full_by_strain <- aggregate(table_corr_nIS_movs_IS_full$IS1_movs, by = list(table_corr_nIS_movs_IS_full$Strain, table_corr_nIS_movs_IS_full$Condition), FUN = sum)
 colnames(table_corr_nIS_movs_IS_full_by_strain) <- c("Strain", "Condition", "IS1_movs")
