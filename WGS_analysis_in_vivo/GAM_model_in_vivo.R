@@ -1,5 +1,5 @@
 
-setwd("/home/jorge/Documents/important_docs/draft_expev/figures_draft_expev/summary_parsed_vcall_w_plasmids/patients")
+setwd("/WGS_analysis_in_vivo/input")
 
 library(ggplot2)
 library(xlsx)
@@ -8,7 +8,7 @@ library(dplyr)
 library(colorBlindness)
 library(car)
 
-summary_patients_table <- read.xlsx("summary_patients_expev.xlsx", 3, header = TRUE)
+summary_patients_table <- read.xlsx("Supplementary_Table_6_summary_vcall_patients_expev.xlsx", 3, header = TRUE)
 summary_patients_table$SNP_rate <- as.numeric(summary_patients_table$SNP_rate)
 summary_patients_table$IS1_rate <- as.numeric(summary_patients_table$IS1_rate)
 summary_patients_table$SNPs_INDELS <- as.numeric(summary_patients_table$SNPs_INDELS)
@@ -51,24 +51,6 @@ integer_breaks <- function(n = 5, ...) {
   }
   return(fxn)
 }
-
-B <- summary_patients_table %>%
-  filter(Species != "C. freundii", Strain != "K174") %>%
-  ggplot(aes(x = Days_between_isolation, y = IS1_movs, col = Species))+
-  geom_point(aes(col = Species, stroke = 1.5, size = nIS1_genome), pch = 1)+
-  facet_wrap(~factor(Species, levels = c("E. coli", "K. pneumoniae")), scales = "free_x")+
-  xlab("Days")+
-  ylab("IS1 transposition")+
-  geom_smooth(method = "lm", se = TRUE, alpha = 0.1)+
-  stat_cor(method = "pearson")+  theme_bw(base_size = 20)+
-  scale_y_continuous(breaks = integer_breaks())+
-  scale_color_manual(values = mypal) +
-  scale_fill_manual(values = mypal) +
-  scale_shape_manual(values=c(1, 13)) +
-  theme(panel.background = element_blank(), panel.grid = element_blank(),
-        strip.text.x = element_blank(),
-        #legend.position = "none",
-        strip.background = element_blank()); B
 
 B <- summary_patients_table %>%
   filter(Strain != "K174", Strain != "K281") %>%
