@@ -26,7 +26,7 @@ do
 	barc=$( basename $dir )
 	#echo $dir
 	gzip $dir/*.fastq
-	cat $dir/*.fastq.gz > $dir/merged_$barc.fastq.gz
+	cat $dir/*.fastq.gz > $dir/merged_$barc.fastq.gz # These fastq.gz files were uploaded to the Bioproject indicated in the README.md
 done
 
 
