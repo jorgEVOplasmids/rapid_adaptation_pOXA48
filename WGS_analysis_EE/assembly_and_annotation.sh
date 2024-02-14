@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Input sequences available under Bioproject ID specified in README.md 
+
 # Close the genomes by hybrid assembly using Unicycler
 
 unicycler -l $longreads -1 $forwardshortreads -2 $reverseshortreads -o $output_ref_genome_folder -t 16 --racon_path $path_to_racon
