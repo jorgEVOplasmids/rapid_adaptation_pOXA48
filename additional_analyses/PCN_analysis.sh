@@ -2,12 +2,13 @@
 
 ### Iterate through trimmed reads folder with samples to analyze
 
-for folder in reads_trimmed/*/
+for folder in reads_trimmed/*/ # Folder with reads from evolved populations of the EE
 do
 	strain=$( basename $folder )
-	# mkdir plasmid_copy_number/$strain
+	# mkdir plasmid_copy_number/$strain # make directory for each strain
 	
 	# Indicate chromosome and plasmid contigs using anvio reformat of fasta headers to ease the identification of chromosome and plasmids
+ 	# (fasta reference genome contig names were reformatted using the script found at https://anvio.org/help/main/programs/anvi-script-reformat-fasta/)
 	headers=$(<anvio/$strain/$strain-contigs-reformat.txt)
 	chrcontig=$( echo "$headers" | grep -E "c_000000000001" | tr "\t" " " | cut -d " " -f 1 )
 	contigs=$( echo "$headers" | grep -E "c_00000000000[^1]" | tr "\t" " " | cut -d " " -f 1 )
