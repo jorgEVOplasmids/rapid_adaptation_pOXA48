@@ -135,6 +135,7 @@ per_gene_NJ = []
 per_gene_NJ_2 = []
 
 # Open breseq parsed xlsx input file for the specified strain
+# xlsx files obtained with breseq_index_parser.py are placed in /input/xlsx_raw
 
 for i, element in enumerate(FileNames):
     if StrainName in FileNames[i]:
