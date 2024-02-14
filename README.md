@@ -2,6 +2,8 @@
 
 This repository contains all the code used in the work **Plasmid-encoded insertion sequences promote rapid adaptation in clinical enterobacteria**. The code developed for each of the analysis is organized in order for the sections in the results part of the main text of the paper, following the order in which the data was analyzed. For more detail regarding questions different to the code for analyzing and/or plotting consider consulting the Supplementary Material/Methods section of the article. The version of each software is specified in the Methods section of the article.
 
+*Sequences availability: all the data generated and analyzed during this project is available under the Bioproject TBD.*
+
 ## Phenotypic and phylogenetic analyses
 
 #### Phylogenetic tree
