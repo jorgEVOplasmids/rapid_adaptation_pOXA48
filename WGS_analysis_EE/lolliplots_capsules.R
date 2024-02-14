@@ -1,7 +1,7 @@
 
 ### R script for representing the mutations on the klebsiella capsule operon and CF rpoS and nlpD operon
 
-setwd("~/workie/figures_draft_expev/summary_parsed_vcall_w_plasmids/capsule_mutations")
+setwd("/input")
 
 library(trackViewer)
 library(readxl)
@@ -9,6 +9,8 @@ library(dplyr)
 library(GenomicRanges)
 
 # Import data
+
+# capsule_muts_merged.xlsx table was obtained by filtering the mutations from Supplementary Table 2 falling into the capsule coords. for each strain
 
 muts_cap <- read_xlsx("capsule_muts_merged.xlsx", 1)
 coords_cap <- read_xlsx("capsule_muts_merged.xlsx", 2)
