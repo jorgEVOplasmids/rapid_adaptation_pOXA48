@@ -1,7 +1,7 @@
 
 ### R script for representing the mutations on the klebsiella capsule operon and CF rpoS and nlpD operon
 
-setwd("~/workie/figures_draft_expev/summary_parsed_vcall_w_plasmids/capsule_mutations")
+setwd("/input")
 
 library(trackViewer)
 library(readxl)
